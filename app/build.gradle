@@ -59,12 +59,15 @@ android {
     compileSdkVersion 28
     defaultConfig {
         applicationId "com.helloandroid"
-        minSdkVersion 14
-        targetSdkVersion 23
+        minSdkVersion 21
+        targetSdkVersion 28
         versionCode 1
         versionName "1.0"
     }
     buildTypes {
+        debug {
+            clean
+        }
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'

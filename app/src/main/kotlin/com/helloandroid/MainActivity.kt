@@ -15,7 +15,7 @@ lateinit var textView: TextView
       //  val binding = DataBindingUtil.setContentView<ActivityMainBinding>(this, R.layout.activity_main)
         setContentView(view)
 
-        binding.button.setOnClickListener { textView.setText("Hello World With Kotlin") }
+        binding.button.setOnClickListener { textView.setText("Hello World") }
     }
 }
 
